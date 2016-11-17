@@ -25,6 +25,6 @@ public class Enemy extends LivingThing {
      * オーバーライドを利用。
      */
     public void announce(){
-        System.out.printf("モンスター%sは倒れた。\n", name);
+        System.out.printf("モンスター%sは倒れた。\n", getName());
     }
 }

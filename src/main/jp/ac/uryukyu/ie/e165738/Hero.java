@@ -25,7 +25,6 @@ public class Hero extends LivingThing {
      * オーバーライドを利用。
      */
     public void announce(){
-        System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
+        System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", getName());
     }
-
 }
